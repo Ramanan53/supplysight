@@ -1,0 +1,4 @@
+Warehouse_ID,Warehouse_Name,Location,Capacity
+WH-EAST,East Coast Distribution Center,New Jersey,50000
+WH-WEST,West Coast Logistics Hub,California,75000
+WH-CENTRAL,Central Storage Facility,Texas,60000

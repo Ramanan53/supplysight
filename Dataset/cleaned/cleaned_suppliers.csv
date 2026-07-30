@@ -1,0 +1,16 @@
+Supplier_ID,Supplier_Name,City,Lead_Time_Days,Rating,On_Time_Delivery_Rate
+SUP-100,Apex Logistics,Seattle,10,4.0,75.8
+SUP-101,Global Freight Co,Houston,5,4.2,96.8
+SUP-102,Nexus Supply Chain,Phoenix,4,3.1,81.2
+SUP-103,Vanguard Goods,Seattle,14,3.95,90.9
+SUP-104,Horizon Traded,Chicago,8,3.3,82.5
+SUP-105,Prime Distribution,Phoenix,4,3.1,87.5
+SUP-106,Atlas Components,Phoenix,3,4.9,88.1
+SUP-107,Zenith Materials,Seattle,11,4.9,79.4
+SUP-108,Beacon Imports,Los Angeles,14,4.6,98.3
+SUP-109,Pinnacle Source,Chicago,19,3.6,93.6
+SUP-110,Quantum Supply,Seattle,12,3.2,97.5
+SUP-111,Velocity Cargo,Chicago,18,4.4,96.5
+SUP-112,Titan Cargo,Chicago,17,3.9,89.3
+SUP-113,Echo Sourcing,Phoenix,17,3.2,97.1
+SUP-114,Omni Trade,Houston,14,4.0,77.1

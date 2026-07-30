@@ -1,0 +1,16 @@
+Product_ID,Product_Name,Category,Unit_Cost,Unit_Price,Supplier_ID
+PROD-501,Wireless Mouse,Electronics,229,322.51,SUP-113
+PROD-502,Mechanical Keyboard,Electronics,227,307.69,SUP-101
+PROD-503,27-inch Monitor,Electronics,67,96.12,SUP-108
+PROD-504,USB-C Hub,Electronics,266,383.79,SUP-112
+PROD-505,Noise Cancelling Headphones,Electronics,55,72.52,SUP-112
+PROD-506,Ergonomic Chair,Office Supplies,79,95.29,SUP-108
+PROD-507,Standing Desk,Office Supplies,143,182.97,SUP-107
+PROD-508,Notebook Pack,Office Supplies,77,117.52,SUP-100
+PROD-509,Desk Lamp,Office Supplies,177,268.34,SUP-110
+PROD-510,Document Shredder,Office Supplies,275,431.89,SUP-109
+PROD-511,Barcode Scanner,Warehouse Tools,55,86.13,SUP-108
+PROD-512,Label Printer,Warehouse Tools,282,375.73,SUP-106
+PROD-513,Packaging Tape Dispenser,Warehouse Tools,76,101.09,SUP-102
+PROD-514,Hand Truck,Warehouse Tools,186,270.63,SUP-110
+PROD-515,Pallet Jack,Warehouse Tools,49,68.06,SUP-104
