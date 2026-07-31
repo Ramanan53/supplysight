@@ -20,8 +20,8 @@ By processing raw transactional data through a robust ETL pipeline in **Python**
 
 ### Key Performance Highlights & Executive Metrics
 * **Total Working Capital Analyzed**: **$690,957.00** in total inventory value evaluated across distribution centers.
-* **Low Stock Emergency Alerts**: **3 SKUs** flagged with stock levels below or equal to reorder threshold ($\text{Current Stock} \le \text{Reorder Level}$), requiring immediate purchase order issuance.
-* **Overstocked Inventory Risk**: **7 SKUs** identified with stock holding exceeding $3\times$ the reorder requirement, locking up non-performing capital.
+* **Low Stock Emergency Alerts**: **3 SKUs** flagged with stock levels below or equal to reorder threshold (`Current_Stock` $\le$ `Reorder_Level`), requiring immediate purchase order issuance.
+* **Overstocked Inventory Risk**: **7 SKUs** identified with stock holding exceeding 3x the reorder requirement, locking up non-performing capital.
 * **ABC Pareto Segregation**: Automated 80/20 inventory categorization into **Class A** (Top 70% value / 6 SKUs), **Class B** (Next 20% value / 5 SKUs), and **Class C** (Bottom 10% value / 8 SKUs).
 
 ---
@@ -63,7 +63,7 @@ inventory_data.xlsx ──> [clean_data.py] ──> Cleaned CSVs ──> [transf
 ### A. Data Hygiene & Sanitation (`clean_data.py`)
 - **Missing Value Handling**:
   - Missing supplier ratings imputed using median rating ($\text{Rating}_{\text{imputed}} = \text{Median}(\text{Rating})$).
-  - Missing lead times imputed using mean lead time ($\text{Lead\_Time}_{\text{imputed}} = \lfloor \text{Mean}(\text{Lead\_Time}) \rceil$).
+  - Missing lead times imputed using mean lead time ($\text{LeadTime}_{\text{imputed}} = \lfloor \text{Mean}(\text{LeadTime}) \rceil$).
 - **Data Type Integrity**: Explicit cast of stock parameters (`Current_Stock`, `Reorder_Level`, `Lead_Time_Days`) to standard integers.
 - **Deduplication**: Strict deduplication across all 4 entity datasets.
 
